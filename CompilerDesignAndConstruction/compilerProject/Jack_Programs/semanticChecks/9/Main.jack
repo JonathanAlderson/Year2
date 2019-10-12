@@ -1,0 +1,30 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function int main()
+   {
+
+      var int    a;
+
+      if (6 > 7)
+      {
+            if (8 > 9)
+            {
+              let a = 9;  // does not return here
+            }
+
+            else
+            {
+              return 8;
+            }
+      }
+
+      else
+      {
+        return 8;
+      }
+
+   }
+}

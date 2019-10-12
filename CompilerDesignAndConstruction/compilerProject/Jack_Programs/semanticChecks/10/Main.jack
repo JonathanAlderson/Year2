@@ -1,0 +1,18 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function int main()
+   {
+
+      var int    a;
+
+
+      return 5;
+
+      let a = 0;
+
+
+   }
+}

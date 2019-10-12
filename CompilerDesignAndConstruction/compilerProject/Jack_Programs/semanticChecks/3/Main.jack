@@ -1,0 +1,17 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function void f()
+   {
+      var boolean b;
+
+      if(b)
+      {
+        let b = true;
+      }
+
+      return;
+   }
+}

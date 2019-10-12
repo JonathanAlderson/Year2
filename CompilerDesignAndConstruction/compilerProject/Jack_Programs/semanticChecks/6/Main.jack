@@ -1,0 +1,15 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function void f()
+   {
+
+      var int a;
+
+      let a = Array.unknownFunction(5,6,78,549);
+
+      return;
+   }
+}

@@ -1,0 +1,20 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function void f()
+   {
+      var boolean b;
+
+      var Array a;
+
+      let a = Array.new(10);
+
+      let b = false;
+
+      let a[b] = 10;
+
+      return;
+   }
+}

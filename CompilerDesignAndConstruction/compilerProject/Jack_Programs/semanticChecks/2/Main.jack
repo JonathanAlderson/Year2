@@ -1,0 +1,28 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+   field int x;
+   field int x;
+
+   function void test()
+   {
+      var int a;
+      var int b;
+      var int c;
+      return;
+   }
+
+   function void test()
+   {
+      return;
+   }
+
+   function void test2()
+   {
+      var int a;
+      var int b;
+      var int c;
+      return;
+   }
+}

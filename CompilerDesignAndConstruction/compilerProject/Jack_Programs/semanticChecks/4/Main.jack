@@ -1,0 +1,20 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+
+   function void f()
+   {
+      var BankAccount x;
+
+      var char y;
+
+      let x = BankAccount.new();
+
+      let y = 100;
+
+      let x = y + 1;
+
+      return;
+   }
+}

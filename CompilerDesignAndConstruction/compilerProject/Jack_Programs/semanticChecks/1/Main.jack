@@ -1,0 +1,13 @@
+// This file is to check the semantics of the JACK languague
+
+class Main {
+
+   field int x;
+   function void f(int a)
+   {
+      let x = a/2;
+      let y = x + 1; // wrong y has not been declared
+
+      return;
+   }
+}
