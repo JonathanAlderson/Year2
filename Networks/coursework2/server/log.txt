@@ -1,0 +1,410 @@
+18/2/2019 : 17:10 : localhost : list
+18/2/2019 : 17:10 : localhost : list
+18/2/2019 : 17:10 : localhost : list
+18/2/2019 : 17:10 : localhost : list
+18/2/119 : 17:15 : localhost : get testFile.txt
+18/2/2019 : 17:29 : localhost : get testFile.txt
+18/2/2019 : 17:29 : localhost : get testicle.txt
+18/2/2019 : 17:32 : localhost : get testicle.txt
+18/2/2019 : 17:32 : localhost : get testFile.txt
+18/2/2019 : 18:5 : localhost : get testFile.txt
+18/2/2019 : 18:8 : localhost : get testFile.txt
+18/2/2019 : 18:9 : localhost : get testFile.txt
+19/2/2019 : 12:33 : localhost : get testFile.txt
+19/2/2019 : 12:42 : localhost : get testFile.txt
+19/2/2019 : 12:42 : localhost : get testFile.txt
+19/2/2019 : 12:43 : localhost : get testFile.txt
+19/2/2019 : 12:43 : localhost : get testFile.txt
+19/2/2019 : 12:44 : localhost : get testFile.txt
+19/2/2019 : 12:45 : localhost : get testFile.txt
+19/2/2019 : 12:51 : localhost : get testFile.txt
+19/2/2019 : 12:53 : localhost : get testFile.txt
+19/2/2019 : 12:53 : localhost : get testFile.txt
+19/2/2019 : 13:2 : localhost : list
+19/2/2019 : 13:2 : localhost : get logTest
+19/2/2019 : 13:2 : localhost : get testFile.txt
+19/2/2019 : 13:5 : localhost : list
+19/2/2019 : 13:5 : localhost : get testFile.txt
+19/2/2019 : 13:5 : localhost : get testFile.txt
+19/2/2019 : 13:23 : localhost : list
+19/2/2019 : 13:24 : localhost : list
+19/2/2019 : 13:24 : localhost : list
+19/2/2019 : 13:24 : localhost : list
+19/2/2019 : 13:24 : localhost : list
+19/2/2019 : 13:27 : localhost : list
+19/2/2019 : 13:27 : localhost : get testFIle.txt
+19/2/2019 : 13:28 : localhost : get testFIle.txt
+19/2/2019 : 13:43 : localhost : list
+19/2/2019 : 13:43 : localhost : list
+19/2/2019 : 13:43 : localhost : list
+19/2/2019 : 13:44 : localhost : get file.txt
+19/2/2019 : 13:44 : localhost : get wrongFile.txt
+19/2/2019 : 13:45 : localhost : get wrongFile.txt
+19/2/2019 : 13:46 : localhost : get wrongFile.txt
+19/2/2019 : 13:48 : localhost : get file.txt
+19/2/2019 : 13:48 : localhost : get file.txt
+19/2/2019 : 13:52 : localhost : get file.txt
+19/2/2019 : 14:21 : localhost : get file.txt
+19/2/2019 : 14:23 : localhost : get file.txt
+19/2/2019 : 14:23 : localhost : get file.txt
+19/2/2019 : 14:28 : localhost : get file.txt
+19/2/2019 : 14:35 : localhost : get file.txt
+19/2/2019 : 14:36 : localhost : get file.txt
+19/2/2019 : 14:48 : localhost : get file.txt
+19/2/2019 : 14:48 : localhost : get file.txt
+19/2/2019 : 14:48 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:50 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:51 : localhost : get file.txt
+19/2/2019 : 14:52 : localhost : get file.txt
+19/2/2019 : 14:52 : localhost : get file.txt
+19/2/2019 : 14:52 : localhost : get file.txt
+19/2/2019 : 14:52 : localhost : get file.txt
+19/2/2019 : 14:53 : localhost : list
+19/2/2019 : 14:54 : localhost : get file.txt
+19/2/2019 : 14:54 : localhost : get file.txt
+19/2/2019 : 14:54 : localhost : get file.txt
+19/2/2019 : 14:54 : localhost : get file.txt
+19/2/2019 : 14:56 : localhost : get file.txt
+20/2/2019 : 12:24 : localhost : get file.txt
+20/2/2019 : 12:24 : localhost : get file.txt
+20/2/2019 : 12:25 : localhost : get file.txt
+20/2/2019 : 12:25 : localhost : get file.txt
+20/2/2019 : 12:25 : localhost : get file.txt
+20/2/2019 : 12:25 : localhost : get file.txt
+20/2/2019 : 12:26 : localhost : get file.txt
+20/2/2019 : 12:27 : localhost : get file.txt
+20/2/2019 : 12:27 : localhost : get file.txt
+20/2/2019 : 12:27 : localhost : get file.txt
+20/2/2019 : 12:32 : localhost : get file.txt
+20/2/2019 : 12:35 : localhost : get file.txt
+20/2/2019 : 12:40 : localhost : get file.txt
+20/2/2019 : 12:45 : localhost : get file.txt
+20/2/2019 : 13:22 : localhost : list
+20/2/2019 : 13:22 : localhost : get file.txt
+20/2/2019 : 13:22 : localhost : get file.txt
+20/2/2019 : 14:23 : localhost : get file.txt
+20/2/2019 : 14:30 : localhost : put newFile.txt
+20/2/2019 : 14:38 : localhost : put newFile.txt
+20/2/2019 : 14:38 : localhost : get file.txt
+20/2/2019 : 14:38 : localhost : get file.txt
+20/2/2019 : 14:47 : localhost : put newFile.txt
+20/2/2019 : 14:48 : localhost : put newFile.txt
+20/2/2019 : 14:56 : localhost : get fakeStuff.txt
+20/2/2019 : 15:1 : localhost : get fakeStuff.txt
+20/2/2019 : 15:1 : localhost : get testFile.txt
+20/2/2019 : 15:1 : localhost : put newFile.txt
+20/2/2019 : 15:3 : localhost : put newFile.txt
+20/2/2019 : 15:3 : localhost : put newFile.txt
+20/2/2019 : 15:3 : localhost : put newFile.txt
+20/2/2019 : 15:20 : localhost : list
+20/2/2019 : 15:20 : localhost : get file.txt
+20/2/2019 : 15:20 : localhost : get newFile.txt
+20/2/2019 : 15:21 : localhost : put clientFile.txt
+20/2/2019 : 15:49 : localhost : get testFile.txt
+20/2/2019 : 15:49 : localhost : get testFile.txt
+20/2/2019 : 15:49 : localhost : get testFile.txt
+20/2/2019 : 15:52 : localhost : get testFile.txt
+20/2/2019 : 15:54 : localhost : get testFile.txt
+20/2/2019 : 15:55 : localhost : get testFile.txt
+20/2/2019 : 15:57 : localhost : get testFile.txt
+20/2/2019 : 16:7 : localhost : get testFile.txt
+21/2/2019 : 13:14 : localhost : get file.txt
+21/2/2019 : 13:17 : localhost : list
+21/2/2019 : 13:17 : localhost : get cat.jpg
+21/2/2019 : 13:20 : localhost : get cat.jpg
+21/2/2019 : 13:26 : localhost : get cat.jpg
+21/2/2019 : 13:27 : localhost : get cat.jpg
+21/2/2019 : 13:29 : localhost : get cat.jpg
+21/2/2019 : 13:30 : localhost : get file.txt
+21/2/2019 : 13:31 : localhost : get testFile.txt
+21/2/2019 : 13:31 : localhost : get testFile.txt
+21/2/2019 : 13:32 : localhost : get testFile.txt
+21/2/2019 : 13:35 : localhost : get file.txt
+21/2/2019 : 13:39 : localhost : get file.txt
+21/2/2019 : 13:39 : localhost : get file.txt
+21/2/2019 : 13:52 : localhost : list
+21/2/2019 : 13:54 : localhost : list
+21/2/2019 : 13:55 : localhost : list
+21/03/2019 : 14:04 : localhost : list
+21/03/2019 : 14:21 : localhost : list
+21/03/2019 : 14:22 : localhost : get testFile.txt
+21/03/2019 : 14:22 : localhost : get testFile.txt
+21/03/2019 : 14:23 : localhost : get testFile.txt
+22/03/2019 : 12:07 : localhost : get file.txt
+22/03/2019 : 12:08 : localhost : get file.txt
+22/03/2019 : 12:09 : localhost : get file.txt
+22/03/2019 : 12:10 : localhost : get file.txt
+22/03/2019 : 12:11 : localhost : get file.txt
+22/03/2019 : 12:11 : localhost : get cat.jpg
+22/03/2019 : 12:17 : localhost : get file.txt
+22/03/2019 : 12:19 : localhost : list
+22/03/2019 : 14:16 : localhost : get cat.jpg
+22/03/2019 : 14:17 : localhost : get cat.jpg
+22/03/2019 : 14:17 : localhost : get file.txt
+22/03/2019 : 14:18 : localhost : get file.txt
+22/03/2019 : 14:22 : localhost : get file.txt
+22/03/2019 : 14:22 : localhost : get cat.jpg
+22/03/2019 : 14:33 : localhost : get cat.jpg
+22/03/2019 : 14:40 : localhost : get cat.jpg
+22/03/2019 : 14:43 : localhost : get cat.jpg
+22/03/2019 : 14:44 : localhost : get cat.jpg
+22/03/2019 : 14:47 : localhost : get cat.jpg
+22/03/2019 : 14:47 : localhost : get cat.jpg
+22/03/2019 : 14:47 : localhost : get cat.jpg
+22/03/2019 : 14:48 : localhost : get file.txt
+22/03/2019 : 14:48 : localhost : list
+22/03/2019 : 14:49 : localhost : list
+22/03/2019 : 14:50 : localhost : list
+22/03/2019 : 14:51 : localhost : list
+22/03/2019 : 14:51 : localhost : list
+22/03/2019 : 14:52 : localhost : list
+22/03/2019 : 14:53 : localhost : list
+22/03/2019 : 14:54 : localhost : list
+22/03/2019 : 14:54 : localhost : list
+22/03/2019 : 14:55 : localhost : get cat.jgp
+22/03/2019 : 14:56 : localhost : get cat.jgp
+22/03/2019 : 15:08 : localhost : get cgdsare
+22/03/2019 : 15:08 : localhost : get cgdsare
+22/03/2019 : 15:09 : localhost : get fakeFile.txt
+22/03/2019 : 15:09 : localhost : get clientFile.txt
+22/03/2019 : 15:09 : localhost : get testFile.txt
+22/03/2019 : 15:10 : localhost : get testFile.txt
+22/03/2019 : 15:10 : localhost : get testFile.txt
+22/03/2019 : 15:22 : localhost : put clientFile.txt
+22/03/2019 : 15:22 : localhost : This is the file that
+22/03/2019 : 15:22 : localhost : the client has to send over
+22/03/2019 : 15:22 : localhost : hoepfully this one
+22/03/2019 : 15:22 : localhost : isn't as much of a pain in the arse
+22/03/2019 : 15:22 : localhost : as the other one
+22/03/2019 : 15:24 : localhost : put clientFile.txt
+22/03/2019 : 15:24 : localhost : This is the file that
+22/03/2019 : 15:24 : localhost : the client has to send over
+22/03/2019 : 15:24 : localhost : hoepfully this one
+22/03/2019 : 15:24 : localhost : isn't as much of a pain in the arse
+22/03/2019 : 15:24 : localhost : as the other one
+22/03/2019 : 15:24 : localhost : put clientFile.txt
+22/03/2019 : 15:24 : localhost : This is the file that
+22/03/2019 : 15:24 : localhost : the client has to send over
+22/03/2019 : 15:24 : localhost : hoepfully this one
+22/03/2019 : 15:24 : localhost : isn't as much of a pain in the arse
+22/03/2019 : 15:24 : localhost : as the other one
+22/03/2019 : 15:27 : localhost : get cat.jpg
+22/03/2019 : 15:29 : localhost : get cat.jpg
+22/03/2019 : 15:29 : localhost : get cat.jpg
+22/03/2019 : 15:35 : localhost : get cat.jpg
+22/03/2019 : 15:50 : localhost : put clientFile.txt
+22/03/2019 : 15:50 : localhost : This is the file that
+22/03/2019 : 15:50 : localhost : the client has to send over
+22/03/2019 : 15:50 : localhost : hoepfully this one
+22/03/2019 : 15:50 : localhost : isn't as much of a pain in the arse
+22/03/2019 : 15:50 : localhost : as the other one
+22/03/2019 : 15:51 : localhost : put clientFile.txt
+22/03/2019 : 15:53 : localhost : put dog.jpg
+22/03/2019 : 15:57 : localhost : put dog.jpg
+22/03/2019 : 16:09 : localhost : list
+22/03/2019 : 16:10 : localhost : get testFile.txt
+22/03/2019 : 16:11 : localhost : get testFile.txt
+22/03/2019 : 16:12 : localhost : get testFile.txt
+22/03/2019 : 16:12 : localhost : get testFile.txt
+22/03/2019 : 16:13 : localhost : get testFile.txt
+22/03/2019 : 16:13 : localhost : get testFile.txt
+22/03/2019 : 16:13 : localhost : get testFile.txt
+22/03/2019 : 16:14 : localhost : get testFile.txt
+22/03/2019 : 16:15 : localhost : list
+22/03/2019 : 16:15 : localhost : get cat.jpg
+22/03/2019 : 16:16 : localhost : get cat.jpg
+22/03/2019 : 16:16 : localhost : get cat.jpg
+22/03/2019 : 16:16 : localhost : get cat.jpg
+22/03/2019 : 16:41 : localhost : get cat.jpg
+22/03/2019 : 16:41 : localhost : get cat.jpg
+22/03/2019 : 16:41 : localhost : get cat.jpg
+22/03/2019 : 16:42 : localhost : get cat.jpg
+22/03/2019 : 16:42 : localhost : get cat.jpg
+22/03/2019 : 16:43 : localhost : get cat.jpg
+22/03/2019 : 16:43 : localhost : get cat.jpg
+22/03/2019 : 16:46 : localhost : get cat.jpg
+22/03/2019 : 16:46 : localhost : get cat.jpg
+22/03/2019 : 16:47 : localhost : get cat.jpg
+22/03/2019 : 16:48 : localhost : get cat.jpg
+22/03/2019 : 16:49 : localhost : get cat.jpg
+22/03/2019 : 16:50 : localhost : get cat.jpg
+22/03/2019 : 16:50 : localhost : get cat.jpg
+22/03/2019 : 16:51 : localhost : get cat.jpg
+22/03/2019 : 16:51 : localhost : get cat.jpg
+22/03/2019 : 16:54 : localhost : get cat.jpg
+22/03/2019 : 16:55 : localhost : get cat.jpg
+22/03/2019 : 16:55 : localhost : get cat.jpg
+22/03/2019 : 16:56 : localhost : get cat.jpg
+22/03/2019 : 16:56 : localhost : get cat.jpg
+22/03/2019 : 16:56 : localhost : get cat.jpg
+22/03/2019 : 16:57 : localhost : get cat.jpg
+22/03/2019 : 16:59 : localhost : get cat.jpg
+22/03/2019 : 17:01 : localhost : get cat.jpg
+22/03/2019 : 17:01 : localhost : get cat.jpg
+22/03/2019 : 17:02 : localhost : get file.txt
+22/03/2019 : 17:05 : localhost : put dog.jpg
+22/03/2019 : 17:07 : localhost : put dog.jpg
+22/03/2019 : 17:07 : localhost : list
+22/03/2019 : 17:07 : localhost : list
+22/03/2019 : 17:08 : localhost : get clientFile.txt
+22/03/2019 : 17:08 : localhost : get clientFile.txt
+22/03/2019 : 17:10 : localhost : list
+22/03/2019 : 17:11 : localhost : get fake.txt
+22/03/2019 : 17:11 : localhost : get fake.txt
+22/03/2019 : 17:12 : localhost : get fake.txt
+22/03/2019 : 17:12 : localhost : list
+22/03/2019 : 17:12 : localhost : get file.txt
+22/03/2019 : 17:13 : localhost : get file.txt
+22/03/2019 : 17:14 : localhost : get fake.txt
+22/03/2019 : 17:14 : localhost : list
+22/03/2019 : 17:14 : localhost : get file.txt
+22/03/2019 : 17:14 : localhost : put fdhsauiofhdsa
+22/03/2019 : 17:15 : localhost : list
+22/03/2019 : 17:15 : localhost : put fdhsauiofhdsa
+22/03/2019 : 17:34 : localhost : put fdhsauiofhdsa
+22/03/2019 : 17:34 : localhost : put fdhsauiofhdsa
+22/03/2019 : 17:35 : localhost : get dog.jpg
+24/03/2019 : 14:23 : localhost : list
+24/03/2019 : 14:24 : localhost : list
+24/03/2019 : 14:24 : localhost : list
+24/03/2019 : 14:24 : localhost : list
+24/03/2019 : 14:24 : localhost : get cat.jgp
+24/03/2019 : 14:24 : localhost : get cat.jpg
+24/03/2019 : 14:26 : localhost : get cat.jpg
+24/03/2019 : 14:26 : localhost : get cat.jpg
+24/03/2019 : 14:27 : localhost : get clientFile.txt
+24/03/2019 : 14:28 : localhost : get dog.jpg
+24/03/2019 : 14:29 : localhost : list
+24/03/2019 : 14:29 : localhost : put cat.jpg
+24/03/2019 : 14:29 : localhost : list
+24/03/2019 : 14:30 : localhost : put cat.jpg
+24/03/2019 : 14:38 : localhost : get dog.jpg
+24/03/2019 : 14:39 : localhost : get cat.jpg
+24/03/2019 : 14:51 : localhost : get dog.jpg
+24/03/2019 : 14:52 : localhost : list
+24/03/2019 : 14:52 : localhost : put cat.jpg
+24/03/2019 : 15:00 : localhost : put cat.jpg
+24/03/2019 : 15:02 : localhost : put cat.jpg
+24/03/2019 : 15:02 : localhost : put clientFile.txt
+24/03/2019 : 15:03 : localhost : put clientFile.txt
+24/03/2019 : 15:04 : localhost : put clientFile.txt
+24/03/2019 : 15:04 : localhost : put clientFile.txt
+24/03/2019 : 15:04 : localhost : put cat.jpg
+24/03/2019 : 15:05 : localhost : put cat.jpg
+24/03/2019 : 15:05 : localhost : put cat.jpg
+24/03/2019 : 15:05 : localhost : put cat.jpg
+24/03/2019 : 15:06 : localhost : put cat.jpg
+24/03/2019 : 15:06 : localhost : put clientFile.txt
+24/03/2019 : 15:12 : localhost : put clientFile.txt
+24/03/2019 : 15:13 : localhost : put clientFile.txt
+24/03/2019 : 15:14 : localhost : put clientFile.txt
+24/03/2019 : 15:15 : localhost : put clientFile.txt
+24/03/2019 : 15:16 : localhost : put clientFile.txt
+24/03/2019 : 15:18 : localhost : list
+24/03/2019 : 15:18 : localhost : list
+24/03/2019 : 15:18 : localhost : put cat.jpg
+24/03/2019 : 15:18 : localhost : get dog.jpg
+24/03/2019 : 15:34 : localhost : get testFile.txt
+24/03/2019 : 15:34 : localhost : list
+24/03/2019 : 15:34 : localhost : get clientFile.txt
+24/03/2019 : 15:35 : localhost : put cat.jpg
+24/03/2019 : 15:35 : localhost : put cat.jpg
+24/03/2019 : 15:36 : localhost : put clientFile.txt
+24/03/2019 : 15:36 : localhost : get clientFile.txt
+24/03/2019 : 15:37 : localhost : get clientFile.txt
+24/03/2019 : 15:37 : localhost : get dog.jpg
+24/03/2019 : 15:39 : localhost : get dog.jpg
+24/03/2019 : 15:40 : localhost : get dog.jpg
+24/03/2019 : 15:43 : localhost : get dog.jpg
+24/03/2019 : 15:43 : localhost : get dog.jpg
+24/03/2019 : 15:46 : localhost : get dog.jpg
+24/03/2019 : 15:52 : localhost : get dog.jpg
+24/03/2019 : 15:53 : localhost : get dog.jpg
+24/03/2019 : 15:55 : localhost : get dog.jpg
+24/03/2019 : 15:57 : localhost : get dog.jpg
+24/03/2019 : 15:57 : localhost : list
+24/03/2019 : 15:57 : localhost : put cat.jpg
+24/03/2019 : 15:57 : localhost : list
+24/03/2019 : 15:58 : localhost : get clientFile.txt
+24/03/2019 : 15:58 : localhost : get clientFile.txt
+24/03/2019 : 15:58 : localhost : get cat.jpg
+24/03/2019 : 15:59 : localhost : put dog.jpg
+24/03/2019 : 16:17 : localhost : put dog.jpg
+24/03/2019 : 16:18 : localhost : get dog.jpg
+24/03/2019 : 16:20 : localhost : list
+24/03/2019 : 16:20 : localhost : get dog.jpg
+24/03/2019 : 16:20 : localhost : put cat.jpg
+24/03/2019 : 16:20 : localhost : get file.txt
+24/03/2019 : 16:21 : localhost : get file.txt
+24/03/2019 : 16:22 : localhost : get file.txt
+24/03/2019 : 16:23 : localhost : get file.txt
+24/03/2019 : 16:24 : localhost : get file.txt
+24/03/2019 : 16:25 : localhost : get file.txt
+24/03/2019 : 16:25 : localhost : put dog.jpg
+24/03/2019 : 16:26 : localhost : put dog.jpg
+24/03/2019 : 16:27 : localhost : get dog.jpg
+24/03/2019 : 16:27 : localhost : get dog.jpg
+24/03/2019 : 16:27 : localhost : get dog.jpg
+24/03/2019 : 16:28 : localhost : get dog.jpg
+24/03/2019 : 16:28 : localhost : get dog.jpg
+24/03/2019 : 16:28 : localhost : get dog.jpg
+24/03/2019 : 16:29 : localhost : get dog.jpg
+24/03/2019 : 16:29 : localhost : get dog.jpg
+24/03/2019 : 16:30 : localhost : get dog.jpg
+24/03/2019 : 16:30 : localhost : get dog.jpg
+24/03/2019 : 16:30 : localhost : get dog.jpg
+24/03/2019 : 16:30 : localhost : put dog.jpg
+24/03/2019 : 16:30 : localhost : list
+24/03/2019 : 16:30 : localhost : list
+24/03/2019 : 16:30 : localhost : list
+24/03/2019 : 16:30 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : get dog.jpg
+24/03/2019 : 16:31 : localhost : get dog.jpg
+24/03/2019 : 16:31 : localhost : put dog.jpg
+24/03/2019 : 16:31 : localhost : put dog.jpg
+24/03/2019 : 16:31 : localhost : put dog.jpg
+24/03/2019 : 16:31 : localhost : put dog.jpg
+24/03/2019 : 16:31 : localhost : put list
+24/03/2019 : 16:31 : localhost : put list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : list
+24/03/2019 : 16:31 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put list
+24/03/2019 : 16:32 : localhost : put dog.jpg
+24/03/2019 : 16:32 : localhost : get dog.jpg
+24/03/2019 : 17:00 : localhost : get dog.jpg
+24/03/2019 : 17:00 : localhost : get cat.jpg
+24/03/2019 : 17:00 : localhost : list
+24/03/2019 : 17:00 : localhost : put clientFile.txt
+24/03/2019 : 17:30 : localhost : list
+24/03/2019 : 17:30 : localhost : list
