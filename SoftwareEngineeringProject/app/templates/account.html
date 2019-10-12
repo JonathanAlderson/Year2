@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/account.css') }}">
+    <script src="../css/scripts/browse.js"> </script>
+</head>
+<div class="container">
+  <div class="row">
+    <h1>Account Information and Settings</h1>
+  </div>
+    <h2> Options </h2>
+    <div class="option-box">
+
+
+    <a href="{{ url_for('resetPassword') }}" class="list-group">
+          <li class="list-group-item">
+                Change Password
+          </li>
+    </a>
+
+    <a href="#" class="list-group">
+          <li class="list-group-item">
+                Delete Account
+          </li>
+    </a>
+
+    <a href="/meetOurStaff" class="list-group">
+          <li class="list-group-item">
+                Contact Us
+          </li>
+    </a>
+    </div>
+
+    <h2> Current Rentals </h2>
+    <div class="details-box">
+        <div class="details">
+          {% if len_curr_rentals == 0 %}
+          <div class="record">
+            No current rentals
+          </div>
+          {% endif %}
+            {% for n in range(len_curr_rentals) %}
+            <div class="record">
+                {{current_rentals[n].start_date.strftime('%d-%m-%Y') + " |"}}
+                {{current_rentals[n].end_date.strftime('%d-%m-%Y') + " |"}}
+                {{current_types[n].brand + " |"}}
+                {{current_types[n].model + " |"}}
+            </div>
+            <div class="dateselection-box">
+                    {{ current_rentals[n].price}} GBP </br>
+                    {{ current_dates[n]}}
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <h2> Previous Rentals </h2>
+    <div class="details-box">
+        <div class="details">
+          {% if len_past_rentals == 0 %}
+          <div class="record">
+            No previous rentals
+          </div>
+          {% endif %}
+            {% for n in range(len_past_rentals) %}
+            <div class="record">
+                {{past_rentals[n].start_date.strftime('%d-%m-%Y') + " |"}}
+                {{past_rentals[n].end_date.strftime('%d-%m-%Y') + " |"}}
+                {{past_types[n].brand + " |"}}
+                {{past_types[n].model + " |"}}
+
+            </div>
+            <div class="dateselection-box">
+                {{ past_rentals[n].price}} GBP </br>
+                {{ past_dates[n] }}
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+  <div>
+
+  </div>
+
+</div>
+{% endblock %}

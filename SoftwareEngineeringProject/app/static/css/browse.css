@@ -1,0 +1,780 @@
+@media screen and (min-width: 100px) and (max-width: 1240px)
+{
+  .left-side-box {
+    top: 260px;
+    background-color: rgba(255,0,0,0.2);
+  }
+}
+
+/* --------------------------------------------------- MENU STYLES ----------------*/
+/** Includes:
+    1. Sort Menu Styles
+    2. Filter Menu Styles
+ */
+
+/* ------------------ Sort Menu Styles ------------- */
+.sort-label{
+  float: left;
+  padding-right: 25px;
+}
+
+.row{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.dateselection{
+  float: left;
+  padding: 10px;
+}
+
+.form-group{
+  float: left;
+  padding-right: 25px;
+}
+
+.center{
+  margin-top: 25px;  /*centers the submit button for bike search*/
+}
+/* ------------------ Sort Menu Styles END ------------- */
+
+
+
+/* ---------------- Filter Menu Styles -------------*/
+.menu-toggle:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+    /* --- Filter Menu Button Styles --- */
+    .openbtn { /* Styles for opening the Filter Menu */
+      font-size: 20px;
+      cursor: pointer;
+      background-color: rgba(0,0,0,0);
+      /*color: white;*/
+      padding: 10px 15px;
+      border: none;
+    }
+
+    .openbtn:hover { /* When we hover the mouse on the Filter Menu button, it changes colour */
+      background-color: rgba(0,0,0,0.3);
+    }
+
+    /* --- END Filter Menu Button Styles --- */
+
+
+.left-side-box { /* Drop Down Filter Menu Styles */
+  width: 250px;
+  background-color: rgb(48, 48, 48);
+  padding-left: 50px;
+  float: left;
+  position: absolute;
+  top: 130px;
+  z-index: 10;
+} /* END Drop Down Filter Menu Styles */
+
+.menu-toggle{
+  float: left;
+  flex-wrap: wrap;
+
+  width: 250px;
+  height: 60px;
+
+  margin-left: 0;
+  padding: 10px;
+  padding-left: 50px;
+  outline:none;
+  transition: 0.5s;
+}
+
+.sidebar-header{color: white;}
+
+.dropdown-toggle{color: white;}
+
+.dropdown-toggle:hover {color: lightgrey;}
+
+.dropdown-toggle:focus {color: lightgrey;}
+
+.subtype{color: #c1c1c1;}
+
+.subtype:hover{color: #b4b4b4;}
+
+.subtype:focus{color: #9f9f9f;}
+
+.button-clicked{
+  background-color: rgba(48, 48, 48, 1);
+}
+
+/* ---------------- Filter Menu Styles END -------------*/
+
+
+/* --------------------------------------------------- MENU STYLES END ----------------*/
+
+
+
+/* --------------------------------------------------- BIKE BOX STYLES ----------------*/
+
+
+.bike-box{
+  background-color: rgba(0,0,0,0.2);
+  width: 320px;
+  float: left;
+  margin: 20px;
+
+}
+
+.bike-photo-section{
+  /*padding: 10px;*/
+  /* 16:9 ratio width and heigth */
+  /*box-shadow: inset 0 0 10px grey;*/
+  background-color: rgba(255,255,255,1);
+  width: 319px;
+  height: 202px;
+  z-index: -1;
+  transition: 0.5s;
+}
+/* zoom in when hovered on bike photo */
+.bike-photo-section:hover{transform: scale(1.1);}
+
+.bike-photo{
+  content: '';
+  position: absolute;
+  padding: 20px;
+  width: 319px;
+  z-index: 0; !important
+}
+
+.vignette {
+  width: 320px;
+  height: 202px;
+  position: absolute;
+
+  box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+  transition: 0.5s; /* smooth transition when mouse is hovered*/
+}
+.vignette:hover {box-shadow: 0 0 100px rgba(0,0,0,1) inset;}
+
+.bike-price-label{
+  position: relative;
+  top: 78%;
+  width: 150px;
+  background-color: rgba(255, 141, 0, 0.41);
+  background-blend-mode: hard-light;
+  box-shadow: 5px -2px 50px -2px #f9f9f9;
+  padding: 10px;
+  z-index: 3;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.seperator{ /* horizontal line separating the bike image and bike title sections */
+  background-color: black; height: 2px; border: 0;
+  width: auto;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.bike-name-section{
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.btn-details{
+  position: relative;
+  background-color: #ff7f00; /* orange button */
+  border: none;
+  color: white; /* TEXT colour */
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 0 !important;
+  float: right;
+  margin-right:10px;
+  margin-bottom:30px;
+}
+
+/* --------------------------------------------------- BIKE BOX STYLES END ----------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.2);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.custom-button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 0 !important;
+}
+
+.sort-box {
+  /*background-color: rgba(0,0,0,0.2);*/
+  margin-left: 250px;
+  /*margin-top: 40px;*/
+  padding: 10px;
+  padding-left: 50px;
+  /*float: right;*/
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+@media screen and (min-width: 100px) and (max-width: 1240px)
+{
+  .left-side-box {
+    top: 260px;
+    background-color: rgba(255,0,0,0.2);
+  }
+}
+
+/* --------------------------------------------------- MENU STYLES ----------------*/
+/** Includes:
+    1. Sort Menu Styles (/browse)
+    2. Filter Menu Styles (/browse)
+    3. Individual Bike Page Styles (/browseBikes)
+ */
+
+/* ------------------ Sort Menu Styles ------------- */
+.sort-label{
+  float: left;
+  padding-right: 25px;
+}
+
+.row{
+  color: lightgrey;
+  background-color: rgba(34,34,34,1);
+  width: auto;
+}
+
+.dateselection{
+  float: left;
+  padding: 10px;
+}
+
+.form-group{
+  float: left;
+  padding-right: 25px;
+}
+
+.btn-outline-info
+{
+  background-color: #ff7f00; /* orange button */
+
+  border: none;
+  color: white; /* TEXT colour */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 0 !important;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.center{
+  margin-top: 25px;  /*centers the submit button for bike search*/
+}
+/* ------------------ Sort Menu Styles END ------------- */
+
+
+
+/* ---------------- Filter Menu Styles -------------*/
+.menu-toggle:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+    /* --- Filter Menu Button Styles --- */
+    .openbtn { /* Styles for opening the Filter Menu */
+      font-size: 20px;
+      cursor: pointer;
+      background-color: rgba(0,0,0,0);
+      /*color: white;*/
+      padding: 10px 15px;
+      border: none;
+    }
+
+    .openbtn:hover { /* When we hover the mouse on the Filter Menu button, it changes colour */
+      background-color: rgba(0,0,0,0.3);
+    }
+
+    /* --- END Filter Menu Button Styles --- */
+
+
+.left-side-box { /* Drop Down Filter Menu Styles */
+  width: 250px;
+  background-color: rgb(48, 48, 48);
+  padding-left: 50px;
+  float: left;
+  position: absolute;
+  top: 130px;
+  z-index: 10;
+} /* END Drop Down Filter Menu Styles */
+
+.menu-toggle{
+  float: left;
+  flex-wrap: wrap;
+
+  width: 250px;
+  height: 60px;
+
+  margin-left: 0;
+  padding: 10px;
+  padding-left: 50px;
+  outline:none;
+  transition: 0.5s;
+}
+
+.sidebar-header{color: white;}
+
+.dropdown-toggle{color: white;}
+
+.dropdown-toggle:hover {color: lightgrey;}
+
+.dropdown-toggle:focus {color: lightgrey;}
+
+.subtype{color: #c1c1c1;}
+
+.subtype:hover{color: #b4b4b4;}
+
+.subtype:focus{color: #9f9f9f;}
+
+.button-clicked{
+  background-color: rgba(48, 48, 48, 1);
+}
+
+/* ---------------- Filter Menu Styles END -------------*/
+
+
+/* --------------------------------------------------- MENU STYLES END ----------------*/
+
+
+
+/* --------------------------------------------------- BIKE BOX STYLES ----------------*/
+
+
+.bike-box{
+  background-color: rgba(0,0,0,0.2);
+  width: 320px;
+  float: left;
+  margin: 20px;
+
+}
+
+.bike-photo-section{
+  /*padding: 10px;*/
+  /* 16:9 ratio width and heigth */
+  /*box-shadow: inset 0 0 10px grey;*/
+  background-color: rgba(255,255,255,1);
+  width: 319px;
+  height: 202px;
+  z-index: -1;
+  transition: 0.5s;
+}
+/* zoom in when hovered on bike photo */
+.bike-photo-section:hover{transform: scale(1.1);}
+
+.bike-photo{
+  content: '';
+  position: absolute;
+  padding: 20px;
+  width: 319px;
+  z-index: 0; !important
+}
+
+.vignette {
+  width: 320px;
+  height: 202px;
+  position: absolute;
+
+  box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+  transition: 0.5s; /* smooth transition when mouse is hovered*/
+}
+.vignette:hover {box-shadow: 0 0 100px rgba(0,0,0,1) inset;}
+
+.bike-price-label{
+  position: relative;
+  top: 78%;
+  width: 150px;
+  background-color: rgba(255, 141, 0, 0.41);
+  background-blend-mode: hard-light;
+  box-shadow: 5px -2px 50px -2px #f9f9f9;
+  padding: 10px;
+  z-index: 3;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.seperator{ /* horizontal line separating the bike image and bike title sections */
+  background-color: black; height: 2px; border: 0;
+  width: auto;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.bike-name-section{
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.btn-details{
+  position: relative;
+  background-color: #ff7f00; /* orange button */
+  border: none;
+  color: white; /* TEXT colour */
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 0 !important;
+  float: right;
+  margin-right:10px;
+  margin-bottom:30px;
+}
+
+/* --------------------------------------------------- BIKE BOX STYLES END ----------------*/
+
+/* --------------------------------------------------- BROWSE PAGE STYLES START -----------*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.2);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.custom-button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 0 !important;
+}
+
+.sort-box {
+  /*background-color: rgba(0,0,0,0.2);*/
+  margin-left: 250px;
+  /*margin-top: 40px;*/
+  padding: 10px;
+  padding-left: 50px;
+  /*float: right;*/
+}
+.hiddenDiv
+{
+  display: inline-block;
+  /*//visibility: hidden;*/
+  /*//height: 0;*/
+  /*//width: 0;*/
+}
+
+.delete
+{
+  /*background-color: #FFFFFF; /* Green */
+  background-color: rgba(34,34,34,1);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  vertical-align: text-bottom;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.filterTagArea
+{
+  margin-top: 5px;
+  /*padding: 5px;
+  background-color: #ff7f00;*/
+}
+/* darDivs are used for the filter tags and the 'displaying x bikes' areas */
+.darkDiv
+{
+  padding: 5px;
+  background-color: rgba(34,34,34,1);
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.darkDiv2
+{
+  margin-right: 5px;
+  padding: 5px;
+  background-color: rgba(34,34,34,1);
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  display: inline;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.boldtext
+{
+  font-weight: bold;
+  display: inline;
+}
+
+.filterTag
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ff7f00;
+  color: black;
+}
+
+.notfound /*for the display message when no bike was found given the chosen filters */
+{
+  font-size: 30px;
+  top: 350px;
+  left: 36%;
+  position: absolute;
+}
+
+
+/* --------------------------------------------------- BROWSE PAGE STYLES END -----------*/
+
+/* ---------------------------------------- INDIVIDUAL BIKE PAGE STYLES ----------------------------------- */
+
+.button-area
+{
+  width: 100%;
+  height: 30px;
+}
+
+.back-button
+{
+  position: absolute;
+}
+
+.individual-bike-box
+{
+  width: 65%;
+  float: left;
+  margin: 20px;
+}
+
+.individual-bike-photo-section
+{
+  background-color: rgba(255,255,255,1);
+  width: auto;
+
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.individual-bike-photo
+{
+  transition: 0.5s;
+    content: '';
+  /*position: absolute;*/
+  padding: 20px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  z-index: 0; !important
+
+}
+.individual-bike-photo:hover{transform: scale(1.05);}
+
+
+.bike-description
+{
+  background-color: rgba(0,0,0,0.2);
+  float:unset;
+  padding: 20px;
+  margin-left: 70%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+/* BICYCLE PHOTO GALLERY STYLES:*/
+
+ /***********************************************************************************
+ /*  The following gallery styles were adapted from Codepen picture gallery tutorial
+ /*  Title: Pure CSS Image Gallery with Next and Previous Buttons
+ /*  Author: Tiffany Ong
+ /*  Date: 2015
+ /*  Availability: https://codepen.io/ongtiffany/pen/PPbPyB
+ /**********************************************************************************/
+
+#gallery-wrapper {
+     width:auto;
+     height:540px;
+
+     margin:0 auto;
+     position:relative;
+     font-family:verdana, arial, sans-serif;
+ }
+
+ #gallery-wrapper #gallery {
+   position:absolute;
+   left:0;
+   top:0;
+   height:-webkit-fill-available;
+   float: left;
+   width:auto;
+   overflow:hidden;
+   text-align:center;
+ }
+
+ /* PREVIOUS - NEXT BUTTONS */
+ #gallery .previous{
+   display:inline;
+   float:left;
+   margin-left:80px;
+   text-decoration:none;
+   font-size: 36px;
+ }
+
+ #gallery .next{
+   display:inline;
+   float:right;
+   margin-right:80px;
+   text-decoration:none;
+   font-size: 36px;
+ }
+/* END OF BICYCLE PHOTO GALLERY STYLES:*/
+
+/* -------------------------------------- END INDIVIDUAL BIKE PAGE STYLES --------------------------------- */
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+#map
+{
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  .row {width: fit-content;}
+  .individual-bike-photo{width: 10%}
+}
+
+@media screen and (max-width: 1300px), screen and (max-device-width: 1300px)
+{
+  .bike-description
+  {
+    float: left;
+    margin-left: 20px;
+  }
+  .individual-bike-box
+  {/browse
+    width: -webkit-fill-available;
+  }
+  #gallery-wrapper
+  {
+    width: 75vw;
+    height: 57vw;
+  }
+
+}

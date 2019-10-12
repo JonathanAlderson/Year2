@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+    <script src="../css/scripts/browse.js"> </script>
+    {#<script rel="script" href="{{ url_for('static', filename='scripts/browse.js') }}"></script>#}
+</head>
+
+<div class="container">
+  <div class="row">
+    <h1>Meet Our Staff</h1>
+  </div>
+
+    <header>
+        <div><img class="staff-image" src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt></div>
+        <div><img class="staff-image" src="https://www.derbyconnected.com/wp-content/uploads/2013/06/bike-mechanic.jpg" alt>
+        </div>
+    </header>
+
+    <div class="description">
+        <h2>Project Team Members</h2>
+        Andy Parkes @ll16ap
+        Developer
+        </br>
+        Ciaran Brennan 🍾 @CJBrennan
+        Developer
+        </br>
+        Domantas Dilys @Dosmi
+        Developer
+        </br>
+        Jonathan Alderson 🌜 @JonathanAlderson
+        Maintainer
+        </br>
+        Matthew Cumber @MattCumber
+        Developer
+        </br>
+        Slavyana Dianova Chervenkondeva @Slavyana
+        Developer
+    </div>
+
+</div>
+{% endblock %}

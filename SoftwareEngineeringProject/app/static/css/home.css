@@ -1,0 +1,35 @@
+body {
+  overflow: hidden;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.content {
+  padding: 0;
+  width: 100%;
+}
+
+#nav li ul {
+  position:fixed;
+}
+
+#splashLink {
+  height: 100vh;
+  background-image: url("../images/splashMobile.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+@media screen and (min-width: 770px) {
+  #splashLink {
+    background-image: url("../images/splashTablet.jpg")
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  #splashLink {
+    background-image: url("../images/splashDesktop.jpg")
+  }
+}

@@ -1,0 +1,175 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content{
+  padding-top: 20px;
+}
+
+
+/* ------ Image settings ------- */
+
+.logo-image
+{
+  width: 50%;
+}
+
+.staff-image
+{
+  margin: 5px;
+}
+
+/* -------------- FLEX Header, containing images ---------------- */
+
+header {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+header div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+}
+header div img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+
+}
+
+/* ------------ END of header styles ------------ */
+
+/* --------- image styles --------- */
+.staff-image-area
+{
+  width: auto;
+  height: 100%;
+
+  margin: 5px;
+  padding: 10px;
+
+  position: relative;
+}
+
+.staff-photo
+{
+  content: '';
+  position: absolute;
+  width: auto;
+  /*float: right;*/
+}
+
+.logo-area
+{
+  background-image:url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 15vw;
+  height: 15vw;
+  float: left;
+
+  flex-wrap: wrap;
+}
+
+/* --------- END image styles ---------- */
+
+/* --------- button styling ------------ */
+
+.list-group
+{
+  padding: 2px;
+}
+.list-group-item
+{
+  text-align: center;
+  color: black;
+  background-color: rgba(255, 127, 0, 0.8);
+  padding: 15px 32px;
+  border-radius: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-shadow: 0px -4px 0px rgba(0,0,0,1) inset;
+  transition: 0.5s;
+}
+.list-group-item:hover
+{
+  background-color: rgba(255, 127, 0, 1);
+}
+
+/* --------- END button styling ------------ */
+
+.vignette {
+  width: 320px;
+  height: 202px;
+  position: absolute;
+
+  box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+  transition: 0.5s; /* smooth transition when mouse is hovered*/
+}
+.vignette:hover {box-shadow: 0 0 100px rgba(0,0,0,1) inset;}
+
+/* staff description div */
+.description
+{
+  color: lightgrey;
+  clear: left;
+  background-color: rgba(34,34,34,1);
+  float:unset;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* --------- map styling ------------ */
+
+.maps
+{
+  height: 500px;
+  color: lightgrey;
+  clear: left;
+  background-color: rgba(34,34,34,1);
+  float:unset;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#map
+{
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+a:hover
+{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px), screen and (max-device-width: 500px)
+{
+  .logo-area
+  {
+    position: relative;
+    left: 40%;
+    margin: 10px;
+  }
+
+
+
+
+}

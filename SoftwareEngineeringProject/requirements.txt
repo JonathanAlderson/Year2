@@ -1,0 +1,13 @@
+flask
+flask-admin
+flask-mail
+flask-migrate
+flask-login
+flask-sqlalchemy
+flask-whooshalchemy
+flask-wtf
+flask-babel
+coverage
+pypng
+pyqrcode
+flask-bcrypt

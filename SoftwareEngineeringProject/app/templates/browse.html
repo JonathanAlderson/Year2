@@ -1,0 +1,253 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/browse.css') }}">
+</head>
+
+<div class="container">
+
+  <div class="row">
+
+        <button class="menu-toggle openbtn"
+                id="button"
+                data-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+                onclick="openNav(); changeColour();">
+
+            ☰ Filter Menu
+
+        </button>
+
+        {# ----------------------------  FILTER DROP DOWN MENU -------------------------- #}
+        <!--
+
+        *    The following divider was made with the help of Bootstrapious collapsible HTML
+             sidebar navigation tutorial
+        *    Title: BOOTSTRAP SIDEBAR
+        *    Author: Ondrej Svestka
+        *    Date: 2015 - 2019
+        *    Availability: https://bootstrapious.com/p/bootstrap-sidebar
+
+        -->
+        <div class="left-side-box collapse" id="collapseExample">
+          <div class="wrapper">
+              <!-- Sidebar -->
+              <nav id="sidebar">
+                  <div class="sidebar-header">
+                      <h3>Filter</h3>
+                  </div>
+
+                  <form method="POST" action="">
+                    <ul class="list-unstyled components">
+
+                      <li>
+                          <a href="#shopSubmenu"
+                             data-toggle="collapse"
+                             aria-expanded="false"
+                             class="dropdown-toggle">
+                             <b>Shop</b>
+                          </a>
+                          <ul class="collapse list-unstyled" id="shopSubmenu">
+                              {{ filterForm.hidden_tag() }}
+                                  {{ filterForm.shopChoice }}
+                          </ul>
+                      </li>
+
+                        <li class="active">
+                            <a href="#bikeTypeSubmenu"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                               class="dropdown-toggle">
+                               <b>Type</b>
+                            </a>
+                            <ul class="collapse list-unstyled" id="bikeTypeSubmenu">
+                              {{ filterForm.typeChoice }}
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#userTypeSubmenu"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                               class="dropdown-toggle">
+                               <b>Age</b>
+                            </a>
+                            <ul class="collapse list-unstyled" id="userTypeSubmenu">
+                              {{ filterForm.ageChoice }}
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#colourSubmenu"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                               class="dropdown-toggle">
+                               <b>Colour</b>
+                            </a>
+                            <ul class="collapse list-unstyled" id="colourSubmenu">
+                              {{ filterForm.colourChoice }}
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#brandSubmenu"
+                               data-toggle="collapse"
+                               aria-expanded="false"
+                               class="dropdown-toggle">
+                               <b>Brand</b>
+                            </a>
+                            <ul class="collapse list-unstyled" id="brandSubmenu">
+                              {{ filterForm.brandChoice }}
+                            </ul>
+                        </li>
+                        <div class="dateselection center">
+                          <!-- <button type="button" onclick="refreshBrowse();" name="search" id="bikeSearchButton">Search</button> -->
+                          {{ filterForm.submit(class="btn btn-outline-info", id="bikeSearchButton") }}
+                        </div>
+                    </ul>
+                  </form>
+              </nav>
+          </div>
+        </div>
+        {# ----------------------------  FILTER DROP DOWN MENU END -------------------------- #}
+
+        {# ----------------------------  DATE SELECTION MENU -------------------------- #}
+        <div class="sort-box">
+
+          {# <form method="POST" action="{{ url_for('browse', start=data[1][bike.bike_type_id - 1].brand, end=data[1][bike.bike_type_id - 1].model,id = bike.id) }}"> #}
+          <form method="POST" action="">
+                  {{ form.hidden_tag() }}
+            <div class="form-group">
+                <div class="dateselection">
+                  {{ form.start_date.label(class="form-control-label",id="startDate")}}
+                  {{ form.start_date(class="form-control form-control-lg")}}
+                </div>
+
+                <div class="dateselection">
+                  {{ form.end_date.label(class="form-control-label",id="endDate")}}
+                  {{ form.end_date(class="form-control form-control-lg")}}
+                </div>
+
+                <div class="dateselection center">
+                  {{ form.submit(class="btn btn-outline-info", id="bikeSearchButton") }}
+                  <p class="bold small"> (resets the filters)</p>
+		            </div>
+            </div>
+
+          </form>
+
+        </div>
+        {# --------------------------  END SORT MENU -------------------------- #}
+
+  </div>
+  <!-- //////////////////// END ROW DIV \\\\\\\\\\\\\\\\\\\\\\\ -->
+
+{% if data[5] | length > 0 %}
+  <div class="filterTagArea">
+    <p class="darkDiv">Applied Filters:</p>
+      {% for key, value in data[5].items() %}
+          <div class="filterTag">
+            {{key}} : {{value}}
+            <form class="hiddenDiv" method="POST" action="">
+              {% if key == "Shop" %}
+                <!-- <div id="delete">
+                  {{ disableForm.Shop(class="delete", id="delete") }}
+                  CANNOT DISABLE SHOP FILTER
+                </div> -->
+                {% elif key == "Type" %}
+                  <div id="delete">
+                    {{ disableForm.Type(class="delete", id="delete") }}
+                  </div>
+
+                {% elif key == "Age" %}
+                  <div id="delete">
+                    {{ disableForm.Age(class="delete", id="delete") }}
+                  </div>
+
+                {% elif key == "Colour" %}
+                  <div id="delete">
+                    {{ disableForm.Colour(class="delete", id="delete") }}
+                  </div>
+
+                {% elif key == "Brand" %}
+                  <div id="delete">
+                    {{ disableForm.Brand(class="delete", id="delete") }}
+                  </div>
+              {% endif %}
+            </form>
+          </div>
+      {% endfor %}
+
+  </div>
+{% endif %}
+
+
+{# /////////////////////// BIKE BOX TEMPLATE \\\\\\\\\\\\\\\\\\\\\\   #}
+<!-- ************************* DISPLAYING FILTER TAGS ***************************** -->
+    {% if data[0] | length > 0 %}
+      {% if data[0] | length == 1 %}
+          <p class="darkDiv2"> {{data[0] | length}} bicycle available </p>
+        {% else %}
+          <p class="darkDiv2"> {{data[0] | length}} bicycles available </p>
+      {% endif %}
+      <div class="filterTag">
+        from <p class="boldtext">{{ data[3].strftime('%d/%m/%Y')}}</p>
+        to <p class="boldtext">{{data[4].strftime('%d/%m/%Y')}} </p>
+      </div>
+      {% if data[6] %}
+        <p class="darkDiv2"> in the University Union (selected by default, click on the Filter Menu to change filters) </p>
+      {% endif %}
+
+      <div class="bike-grid">
+         {% for bike in data[0] %}
+
+            <div class="bike-box">
+              <a href="{{ url_for('bikePage', brand=data[1][bike.bike_type_id - 1].brand, model = data[1][bike.bike_type_id - 1].model, bike_id = data[1][bike.bike_type_id - 1].id, item_id = bike.id, rentStartDate=data[3],rentEndDate=data[4] ) }}">
+              <div class="bike-photo-section">
+                <img class="bike-photo"
+                src={{data[1][bike.bike_type_id - 1].image}} alt="Bicyle">
+
+              <div class="vignette"></div>
+            </a>
+              <div class="bike-price-label">
+                 {{ data[2][bike.bike_type_id - 1].daily_rate }} / day
+              </div>
+
+            </div>
+
+              <hr class="seperator">
+
+              <div class="bike-name-section">
+                {{ data[1][bike.bike_type_id - 1].brand  + " " + data[1][bike.bike_type_id - 1].model}}
+                <!-- <button class="btn btn-details" type="submit">Details</button> -->
+                <!-- rentStartDate=data[3],rentEndDate=data[4] -->
+                <form action="{{ url_for('bikePage', brand=data[1][bike.bike_type_id - 1].brand, model = data[1][bike.bike_type_id - 1].model, bike_id = data[1][bike.bike_type_id - 1].id, item_id = bike.id, rentStartDate=data[3],rentEndDate=data[4] ) }}" method="post">
+                      <input class="btn btn-details" type="submit" value="Details" />
+                </form>
+
+              </div>
+            </div>
+
+         {% endfor %}
+
+      </div>
+
+      {% else %}
+      <div class="notfound">
+        <p>No bikes found using selected filters</p>
+      </div>
+
+    {% endif %}
+
+{# /////////////////////// END OF BIKE BOX TEMPLATE \\\\\\\\\\\\\\\\\\\\\\   #}
+
+</div>
+<!-- //////////////////// END CONTAINER DIV \\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+{% endblock %}

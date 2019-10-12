@@ -1,0 +1,18 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content{
+  padding-top: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar button:active {
+  text-decoration: none;
+}

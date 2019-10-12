@@ -1,0 +1,73 @@
+Gears,Weight (kg),Brand,Model,Picture,Colour,User,Type,Price
+14,11,Carrerra,Zelos,https://i1.adis.ws/i/washford/221405?w=637&h=403,Blue,Adult,Road,250
+14,12.1,Apollo,Paradox,https://i1.adis.ws/i/washford/601212?w=637&h=403,Red,Adult,Road,180
+16,12.2,Carrerra,Crixus,https://i1.adis.ws/i/washford/447204?w=637&h=403,Grey,Adult,Road,240
+16,13.1,Voodoo,Limba,https://i1.adis.ws/i/washford/445570?w=637&h=403,Blue,Adult,Road,450
+18,10.5,Boardman,ADV 8.8,https://i1.adis.ws/i/washford/528940?w=637&h=403,Grey,Adult,Road,750
+20,10.5,Boardman,ADV 8.9,https://i1.adis.ws/i/washford/526803?w=637&h=403,Orange,Adult,Road,1000
+20,9,Boardman,SLR 8.9,https://i1.adis.ws/i/washford/528908?w=637&h=403,Grey,Adult,Road,1000
+18,12.2,Voodoo,Nakisi,https://i1.adis.ws/i/washford/445638?w=637&h=403,Grey,Adult,Road,550
+8,10.5,Boardman,SLR 8.6,https://i1.adis.ws/i/washford/529773?w=637&h=403,Grey,Adult,Road,550
+16,10,Carrerra,Vanquish,https://i1.adis.ws/i/washford/221462?w=637&h=403,White,Adult,Road,375
+16,11,Carrerra,Virtuoso,https://i1.adis.ws/i/washford/641978?w=637&h=403,Black,Adult,Road,325
+24,14,Carrerra,Vengeance,https://i1.adis.ws/i/washford/221009?w=637&h=403,Black,Adult,Mountain,300
+11,12.7,Voodoo,Bizango,https://i1.adis.ws/i/washford/448061?w=637&h=403,Red,Adult,Mountain,650
+24,16,Carrera,Vendetta,https://i1.adis.ws/i/washford/447634?w=637&h=403,Grey,Adult,Mountain,350
+18,19,Indi,Kaisa,https://i1.adis.ws/i/washford/578903?w=637&h=403,Black,Adult,Mountain,89
+18,16.6,Voodoo,Minustor,https://i1.adis.ws/i/washford/445448?w=637&h=403,Green,Adult,Mountain,850
+18,16,Apollo,Slant,https://i1.adis.ws/i/washford/159453?w=637&h=403,Red,Adult,Mountain,89
+10,13.6,Boardman,MHT,https://i1.adis.ws/i/washford/527652?w=637&h=403,Grey,Adult,Mountain,650
+11,13,Boardman,Mountain Pro,https://i1.adis.ws/i/washford/175293?w=637&h=403,Blue,Adult,Mountain,1200
+10,14.4,Boardman,MTR 8.8,https://i1.adis.ws/i/washford/526597?w=637&h=403,Grey,Adult,Mountain,1200
+24,15,Carrera,Hellcat,https://i1.adis.ws/i/washford/593340?w=637&h=403,Black,Adult,Mountain,325
+21,16,Carrera,Blast Junior,https://i1.adis.ws/i/washford/400534?w=637&h=403,Red,Child,Mountain,270
+21,15,Carrera,Luna,https://i1.adis.ws/i/washford/400542?w=637&h=403,Grey,Child,Mountain,270
+18,18,Apollo,Interzone,https://i1.adis.ws/i/washford/400492?w=637&h=403,Blue,Child,Mountain,152
+6,16,Apollo,Xpander,https://i1.adis.ws/i/washford/400344?w=637&h=403,Grey,Child,Mountain,128
+18,19,Apollo,Craze,https://i1.adis.ws/i/washford/400484?w=637&h=403,White,Child,Mountain,172
+7,17,Apollo,Slalom,https://i1.adis.ws/i/washford/400476?w=637&h=403,Blue,Child,Mountain,160
+6,16,Apollo,Charm,https://i1.adis.ws/i/washford/400476?w=637&h=403,Black,Child,Mountain,128
+24,17,Apollo,Independence,https://i1.adis.ws/i/washford/400500?w=637&h=403,Red,Child,Mountain,152
+21,13,Carrera,Axle,https://i1.adis.ws/i/washford/593464?w=637&h=403,Black,Adult,Hybrid,225
+24,15,Carrera,Crossfire,https://i1.adis.ws/i/washford/221306?w=637&h=403,Black,Adult,Hybrid,300
+18,13,Apollo,Transfer,https://i1.adis.ws/i/washford/221553?w=637&h=403,White,Adult,Hybrid,89
+24,14,Carrera,Subway,https://i1.adis.ws/i/washford/221223?w=637&h=403,Grey,Adult,Hybrid,300
+27,14,Boardman,MTX 8.6,https://i1.adis.ws/i/washford/528197?w=637&h=403,Blue,Adult,Hybrid,500
+21,13,Pendleton,Brooke,https://i1.adis.ws/i/washford/142020?w=637&h=403,Brown,Adult,Hybrid,150
+10,10.4,Boardman,HYB 8.8,https://i1.adis.ws/i/washford/526704?w=637&h=403,White,Adult,Hybrid,750
+27,13.2,Voodoo,Marasa,https://i1.adis.ws/i/washford/445489?w=637&h=403,Black,Adult,Hybrid,400
+21,14,Carrera,Parva,https://i1.adis.ws/i/washford/496615?w=637&h=403,Grey,Adult,Hybrid,150
+18,15,Apollo,Cosmo,https://i1.adis.ws/i/washford/560638?w=637&h=403,Blue,Adult,Hybrid,160
+18,15,Apollo,Transition,https://i1.adis.ws/i/washford/566569?w=637&h=403,Red,Adult,Hybrid,160
+20,12.6,Boardman,MTX 8.8,https://i1.adis.ws/i/washford/528346?w=637&h=403,Grey,Adult,Hybrid,650
+24,14,Carrera,Subway 2,https://i1.adis.ws/i/washford/221348?w=637&h=403,Grey,Adult,Hybrid,350
+11,10.4,Boardman,HYB 8.9,https://i1.adis.ws/i/washford/526662?w=637&h=403,Grey,Adult,Hybrid,1000
+24,15,Carrera,Crossfire 2,https://i1.adis.ws/i/washford/221363?w=637&h=403,White,Adult,Hybrid,300
+18,14,Apollo,Excelle,https://i1.adis.ws/i/washford/205267?w=637&h=403,Blue,Adult,Hybrid,85
+18,11.2,Boardman,HYB 8.6,https://i1.adis.ws/i/washford/547098?w=637&h=403,Red,Adult,Hybrid,550
+18,16,Apollo,Kinx,https://i1.adis.ws/i/washford/242641?w=637&h=403,Black,Child,Hybrid,112
+21,16.5,Carrera,Subway Junior,https://i1.adis.ws/i/washford/400591?w=637&h=403,Blue,Child,Hybrid,232
+18,16,Apollo,Vortice,https://i1.adis.ws/i/washford/242625?w=637&h=403,Red,Child,Hybrid,112
+1,16,Apollo,Envy,https://i1.adis.ws/i/washford/242625?w=637&h=403,Red,Child,Hybrid,100
+21,17,Carrera,Saruna ,https://i1.adis.ws/i/washford/400583?w=637&h=403,Red,Child,Hybrid,228
+1,14,Apollo,Switch,https://i1.adis.ws/i/washford/242567?w=637&h=403,Blue,Child,Hybrid,100
+1,10,Pendleton,Hanberry,https://i1.adis.ws/i/washford/141535?w=637&h=403,Grey,Child,Hybrid,160
+16,14,Apollo,Haze,https://i1.adis.ws/i/washford/242591?w=637&h=403,White,Child,Hybrid,128
+1,13,Pendleton,Littleton,https://i1.adis.ws/i/washford/141527?w=637&h=403,Red,Child,Hybrid,130
+6,13,Pendleton,Heath,https://i1.adis.ws/i/washford/141519?w=637&h=403,Blue,Child,Hybrid,204
+6,16,Elswick,Eternity,https://i1.adis.ws/i/washford/710778?w=637&h=403,Blue,Child,Hybrid,150
+6,15,Elswick,Cherish,https://i1.adis.ws/i/washford/710695?w=637&h=403,Blue,Child,Hybrid,148
+1,16,Gtech,City Lowstep,https://i1.adis.ws/i/washford/486160?w=637&h=403,White,Adult,Electric,995
+1,16,Gtech,Sport,https://i1.adis.ws/i/washford/486178?w=637&h=403,White,Adult,Electric,995
+8,26,Carrera,Vengeance E,https://i1.adis.ws/i/washford/368605?w=637&h=403,Black,Adult,Electric,950
+9,24,Carrera,Vulcan E,https://i1.adis.ws/i/washford/288404?w=637&h=403,Grey,Adult,Electric,1200
+8,22.5,Carrera,Crossfire E,https://i1.adis.ws/i/washford/157366?w=637&h=403,Black,Adult,Electric,1200
+8,18,Carrera,Crosscity,https://i1.adis.ws/i/washford/298734?w=637&h=403,Black,Adult,Electric,850
+9,20,Carrera,Crossfuse,https://i1.adis.ws/i/washford/488364?w=637&h=403,Black,Adult,Electric,1600
+6,20,Apollo,Transport,https://i1.adis.ws/i/washford/542248?w=637&h=403,Grey,Adult,Electric,600
+8,22,Pendleton,Somerby,https://i1.adis.ws/i/washford/279718?w=637&h=403,White,Adult,Electric,850
+10,22,Voodoo,Bizango E,https://i1.adis.ws/i/washford/526985?w=637&h=403,Red,Adult,Electric,2000
+9,19,Raleigh,Strada,https://i1.adis.ws/i/washford/610247?w=637&h=403,White,Adult,Electric,1600
+8,22,Pendleton,Somerby,https://i1.adis.ws/i/washford/442072?w=637&h=403,Black,Adult,Electric,850
+9,24,Carrera,Crosspath,https://i1.adis.ws/i/washford/548864?w=637&h=403,Grey,Adult,Electric,1280
+8,22,Pendleton,Somerby,https://i1.adis.ws/i/washford/514726?w=637&h=403,Black,Adult,Electric,850

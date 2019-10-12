@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+  <!-- <script src="../css/scripts/browse.js"> </script> -->
+  {#<script rel="script" href="{{ url_for('static', filename='scripts/browse.js') }}"></script>#}
+</head>
+<div class="container">
+  <div class="row">
+    <h1>About</h1>
+  </div>
+
+<header>
+<div><img class="logo-image" src="../static/images/logo.png" alt></div>
+<div>
+    <img class="staff-image" src="https://www.derbyconnected.com/wp-content/uploads/2013/06/bike-mechanic.jpg" alt>
+
+{#    <div class="vignette"></div>#}
+
+{#    <div class="button-area">#}
+{#        <form action="/meetOurStaff">#}
+{#           <input class="btn btn-details back-button" type="submit" value="Meet our staff" />#}
+{#        </form>#}
+{#    </div>#}
+
+</div>
+
+</header>
+
+<a href="/meetOurStaff" class="list-group">
+  <li class="list-group-item">
+        Meet Our Staff
+  </li>
+</a>
+
+
+<div class="description">
+    <h2>Let us introduce ourselves...</h2>
+     We are Team 16 and this is our bike rental web application.</br>
+     We put in a lot of time and effort into creating this amazing website
+     and we really hope that you enjoy your time here.
+
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <h1>Our Locations</h1>
+    </address>
+
+    </address>
+</div>
+
+<div id="map"></div>
+
+<script>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13
+  });
+  var geocoder = new google.maps.Geocoder();
+  var address = "University of Leeds"
+
+  geocoder.geocode({'address': address}, function(results, status) {
+    if (status === 'OK') {
+      map.setCenter(results[0].geometry.location);
+
+
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+
+  '{%for i in range(0, shops|length)%} '
+    var name = '{{shops[i].location_name}}'
+    var address = '{{shops[i].address}}'
+    var number = '{{shops[i].contact_number}}'
+    var latitude = '{{shops[i].latitude}}'
+    var longitude = '{{shops[i].longitude}}'
+    var bikeCount = '{{bikeCount[i]}}'
+    var myLatLng = new google.maps.LatLng(parseFloat(latitude),parseFloat(longitude));
+
+    var infowindow = new google.maps.InfoWindow({
+        content: "<h4>"+ name +"</h4>" +
+                  "<b>Address: </b>" + address + "</br>" +
+                  "<b>Phone: </b>" + number + "</br>" +
+                  "<b>Bikes in store: </b> "+bikeCount+"</br>"
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: name
+      });
+      var prev_infowindow =false;
+
+      google.maps.event.addListener(marker,'click', (function(marker,infowindow){
+          return function() {
+            if( prev_infowindow ) {
+              prev_infowindow.close();
+            }
+
+            prev_infowindow = infowindow;
+            infowindow.open(map,marker);
+          };
+      })(marker, infowindow));
+
+  '{%endfor%}'
+  }
+
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY36qrgn3bctMLfK9BUiOBm7nP2rSPygo&callback=initMap">
+</script>
+
+{% endblock %}

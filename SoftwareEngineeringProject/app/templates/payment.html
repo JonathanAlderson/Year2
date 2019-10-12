@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/payment.css') }}">
+</head>
+<h2>Your Order</h2>
+
+<div class="content-section">
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">Bike</th>
+				<th scope="col">Rent Start Date</th>
+				<th scope="col">Rent End Date</th>
+				<th scope="col">Rental Time</th>
+				<th scope="col">Cost</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>{{ data.model }} {{ data.brand }}</td>
+				<td>{{ rentStart }}</td>
+				<td>{{ rentEnd }}</td>
+				<td>{{ rentDays }} Day(s)</td>
+				<td>£{{ rentCost }}</td>
+			</tr>
+		</tbody>
+	</table>
+
+	{% if number_of_cards > 0 %}
+
+	<form method="POST" action="">
+		{{ cardForm.hidden_tag() }}
+		<legend class="border-bottom mb-4">Select Payment Method</legend>
+		<h5>Confirmation will be sent to your profile email</h5>
+		<div class="form-group">
+			{{ cardForm.paymentChoice }}
+			<div class="invalid-feedback">
+				<h5>Please select a payment method</h5>
+			</div>
+		</div>
+		<div class="form-group">
+				{{ cardForm.submit(class="btn btn-outline-info") }}
+		</div>
+	</form>
+
+	{% endif %}
+
+
+	<form method="POST" action="">
+		{{ form.hidden_tag() }}
+		<legend class="border-bottom mb-4">Add New Payment Method</legend>
+		<div class="form-group">
+			{{ form.email.label(class="form-control-label") }}
+			{% if form.email.errors %}
+			{{ form.email(class="form-control form-control-lg is-invalid") }}
+			<div class="invalid-feedback">
+				{% for error in form.email.errors %}
+				<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% else %}
+			{{ form.email(class="form-control form-control-lg") }}
+			{% endif %}
+		</div>
+		<fieldset class="form-group">
+			<div class="form-group">
+				{{ form.cardNumber.label(class="form-control-label") }}
+				{% if form.cardNumber.errors %}
+				{{ form.cardNumber(class="form-control form-control-lg is-invalid") }}
+				<div class="invalid-feedback">
+					{% for error in form.cardNumber.errors %}
+					<span>{{ error }}</span>
+					{% endfor %}
+				</div>
+				{% else %}
+				{{ form.cardNumber(class="form-control form-control-lg") }}
+				{% endif %}
+			</div>
+
+			<div class="form-group">
+				{{ form.cvv.label(class="form-control-label") }}
+				{% if form.cvv.errors %}
+				{{ form.cvv(class="form-control form-control-lg is-invalid") }}
+				<div class="invalid-feedback">
+					{% for error in form.cvv.errors %}
+					<span>{{ error }}</span>
+					{% endfor %}
+				</div>
+			{% else %}
+			{{ form.cvv(class="form-control form-control-lg") }}
+			{% endif %}
+		</div>
+		<div class="form-group">
+			{{ form.expDate.label(class="form-control-label") }}
+			{% if form.expDate.errors %}
+			{{ form.expDate(class="form-control form-control-lg is-invalid") }}
+			<div class="invalid-feedback">
+				{% for error in form.expDate.errors %}
+				<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% else %}
+			{{ form.expDate(class="form-control form-control-lg") }}
+			{% endif %}
+		</div>
+	</fieldset>
+	<div class="form-check" style="margin-bottom: 10px;">
+		{{ form.save(class="form-check-input") }}
+		{{ form.save.label(class="form-check-label") }}
+	</div>
+	<div class="form-group">
+		{{ form.submit(class="btn btn-outline-info") }}
+	</div>
+</form>
+</div>
+{% endblock %}

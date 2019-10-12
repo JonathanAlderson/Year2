@@ -1,0 +1,3 @@
+module add python/3.4.3
+source flask/bin/activate
+python run.py

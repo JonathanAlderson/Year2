@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<div class="container-fluid">
+  <div class="row">
+    <a class="col-xs-12" href="{{ url_for('browse') }}" id="splashLink"></a>
+    <a href="bikes" id="desktop"><img class="img-responsive" src="{{ url_for('static', filename='images/splashDesktop.jpg') }}" alt="16Cycles Logo" height="110%"></a>
+    <a href="bikes" id="mobile"><img class="img-responsive" src="{{ url_for('static', filename='images/splashMobile.jpg') }}" alt="16Cycles Logo"></a>
+  </div>
+</div>
+{% endblock %}

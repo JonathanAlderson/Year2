@@ -1,0 +1,18 @@
+td {
+  border-right: 2px solid #ccc;
+  background: #eeeeee
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tr th {
+  background: #212529;
+  color: white;
+  border-bottom: none !important;
+}
+
+h2 {
+  margin-top:0;
+}
